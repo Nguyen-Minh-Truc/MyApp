@@ -1,0 +1,56 @@
+.wrapper {
+    width: 17rem;
+    height: 100vh;
+    border-right: 1px solid #ccc;
+    margin-top: 30px;
+}
+.head {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+   
+}
+.icon_admin {
+    border-radius: 50%;
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeebeb;
+    cursor: pointer;
+}
+.name_admin {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.name_admin:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.manager_user, .manager_product, .manager_order, .revenue {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.manager_user:hover, .manager_product:hover, .manager_order:hover, .revenue:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    font-weight: 800;
+
+}
+.body {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 5px;
+  }

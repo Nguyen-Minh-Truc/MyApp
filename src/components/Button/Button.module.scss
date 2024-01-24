@@ -1,0 +1,15 @@
+.wapper {
+    padding: 12px 20px;
+    min-width: 100px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+}
+.wapper:hover {
+    background-color: #ccc;
+}
